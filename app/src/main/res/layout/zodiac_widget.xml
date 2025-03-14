@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/widget_background"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageViewSign"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/icon_constellation" />
+
+    <TextView
+        android:id="@+id/textViewSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Знак зодиака"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Описание"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Дата рождения"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/buttonChangeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменить дату"
+        android:textSize="12sp"/>
+</LinearLayout>
+
